@@ -1,6 +1,8 @@
 ## My portfolio site
 
 A site that showcases a few of my projects. 
+Check it out.
+ https://gabbyepelle.github.io/portfolio/
 
 # Photo Credits
 <a href="https://www.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_4102879.htm#query=html&position=5&from_view=search&track=sph">Image by fullvector</a> on Freepik
