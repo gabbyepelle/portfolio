@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="hero">
+        <a id="hamburger">
+            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L20 18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 12L20 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 6L20 6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </a>
+            <nav id="mobile-nav" class=" mobile-nav hidden">
+                <svg class="svg-icon" id="close" style="width: 1.5em; height: 1.5em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M777.856 280.192l-33.92-33.952-231.872 231.872-231.84-231.872-33.984 33.888 231.872 231.904-231.84 231.84 33.888 33.984 231.904-231.904 231.84 231.872 33.952-33.888-231.872-231.904z"  /></svg>
+                <ul>
+                    
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+
+            </nav>
+        <div class="header">
+            <h1>Gabrielle Epelle</h1>
+            <span>Developer</span>
+            <a href="#projects">View My Work</a>
+        </div>
+    </div>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm Gabrielle, a self taught developer based in Charlotte, NC with a passion for creating websites, apps, and games.</p>
+            <p>Check out some of my work in the projects section.</p>
+            <h3>Skills</h3>
+            <div class="img-container">
+                <img src="./images/html_1051277.png" alt="">
+                <img src="./images/css-3_732190.png" alt="">
+                <img src="./images/js_5968292.png" alt="">
+                <img src="./images/nodejs-1-logo-png-transparent.png" alt="">
+                <img src="./images/Expressjs.png" alt="">
+                <img src="./images/MongoDB_ForestGreen.png" alt="">
+                <img src="./images/python-logo-only.png" alt="">
+                <img src="./images/icon.png" alt="">
+                <img src="./images/bootstrap-logo.svg" alt="">
+                <img src="./images/Git-Icon-1788C.png" alt="">
+
+            </div>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+            <div class="preview">
+                <img class="thumbnail" src="./images/screencapture-petdepot-onrender-2023-08-29-12_03_25.png" alt="">
+                <div class="text">
+                <p class="thumbnail-title">PetDepot</p>
+                <p>Pet Depot is a full stack web app where users can list pets for sale, browse available pets, and save their favorites.</p> This app was built with Node.js, Express, Passport, EJS, Bootstrap</p>  
+                <p>Note: This app is hosted on a free service. It takes a few moments to load. </p>
+                <p>Guest login:</p>
+                <p>Username: guest</p>
+                <p>Password: guest</p>
+                <p>This is hosted on Render that takes a few</p>
+                <div class="links">
+                <a href="https://petdepot.onrender.com/" target="_blank">Live Site</a>
+                <a href="https://github.com/gabbyepelle/PetDepot/tree/main" target="_blank">View Code</a>
+                </div>
+            </div>
+            </div>
+            <div class="preview">
+                <img class="thumbnail" src="./images/screencapture-gabbyepelle-github-io-todo-2023-08-29-12_11_36.png" alt="">
+                <div class="text">
+                <p class="thumbnail-title">ToDo</p>
+                <p>A productivity app that gives users the ability to create and rename projects as well as add, edit and delete tasks from their projects.</p><p>This app was built with HTML, CSS, JavaScript, localStorage, and Webpack.</p>
+                <div class="links">
+                    <a href="https://gabbyepelle.github.io/todo/" target="_blank">Live Site</a>
+                    <a href="https://github.com/gabbyepelle/todo" target="_blank">View Code</a>
+                </div>
+            </div>
+            </div>
+            <div class="preview">
+                <img class="thumbnail" src="./images/screencapture-gabbyepelle-github-io-weather-app-2023-08-29-12_14_00.png" alt="">
+                <div class="text">
+                <p class="thumbnail-title">DailyWeather</p>
+                <p>An app that gives you the daily forecast in either Farenheit or Celsius. Users have the ability to get the forecast for the city of their choice.</p><p>This app was built with HTML, CSS, JavaScript, and powered by WeatherAPI.</p>
+                <div class="links">
+                    <a href="https://gabbyepelle.github.io/weather_app/" target="_blank">Live Site</a>
+                <a href="https://github.com/gabbyepelle/weather_app" target="_blank">View Code</a>
+            </div>
+            
+            </div>
+            </div>
+        </div>
+        </section>
+        <section id="contact">
+            <h2>Say Hello!</h2>
+            <div class="contact-links">
+                <a href="mailto: gabbyepelle@gmail.com"><img src="./images/Gmail_Logo_512px.png" alt=""></a>
+                <!-- <a href=""><img src="./images/LI-In-Bug.png" alt=""></a> -->
+                <a href="https://github.com/gabbyepelle?tab=repositories"><img src="./images/github-mark.png" alt=""></a>
+
+            </div>
+            
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy Gabrielle Epelle 2023</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
