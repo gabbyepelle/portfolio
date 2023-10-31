@@ -20,8 +20,6 @@ html{
 
 body{
     font-family: var(--body-font);
-    /* background-color: #030920;
-    color: white; */
     background-color: white;
     color: black;
     margin: 0;
@@ -144,14 +142,28 @@ section{
     flex-direction: column;
     justify-content: space-around;
     gap: 15px;
-    padding: 50px 0;
+    padding: 50px 15px;
     background-color: #030920;
     color: white;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 35px;
 }
 
 h2{
     margin-bottom: 20px;
 } 
+
+h3{
+    font-size: 1.5rem;
+}
+
+.about-content{
+    line-height: 2;
+}
 
 .img-container{
     width: 90%; 
@@ -267,6 +279,16 @@ footer{
         justify-content: space-around;
     }
 
+    /* .about-content{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .text-content{
+        text-align: justify;
+    }  */
+
 } 
 
 /* large screens (above 1000) */
@@ -289,6 +311,18 @@ footer{
     .hero{
         background-size: 100%;
     }
+
+    /* .about-content{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .text-content{
+        text-align: justify;
+    }  */
 
     .preview{
         flex-direction: row;
