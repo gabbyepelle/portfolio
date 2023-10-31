@@ -279,15 +279,7 @@ footer{
         justify-content: space-around;
     }
 
-    /* .about-content{
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-    }
-
-    .text-content{
-        text-align: justify;
-    }  */
+    
 
 } 
 
@@ -312,17 +304,7 @@ footer{
         background-size: 100%;
     }
 
-    /* .about-content{
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .text-content{
-        text-align: justify;
-    }  */
+    
 
     .preview{
         flex-direction: row;
