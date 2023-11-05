@@ -283,9 +283,9 @@ footer{
 
 } 
 
-/* large screens (above 1000) */
+/* large screens */
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1060px){
     #hamburger{
         display: none;
     }
@@ -314,8 +314,9 @@ footer{
     } 
 
     .thumbnail{
-        width: 40%;
-    }
+        width: 500px;
+        height: 250px;
+    } 
 
     .text{
         align-self: center;
