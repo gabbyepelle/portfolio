@@ -33,9 +33,7 @@ h1{
     margin: 25px 0;
 }
 
-h2{
-    font-size: 1.7rem;
-}
+
 
  .hero{
     background: url('./images/v627-aew-40-technologybackground.jpg');
@@ -154,6 +152,7 @@ section{
 }
 
 h2{
+    font-size: 1.7rem;
     margin-bottom: 20px;
 } 
 
@@ -204,7 +203,10 @@ h3{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
  }
 
-
+.hi{
+    font-size: 1.6rem;
+    font-family: var(--heading-font);
+}
 
 .text{
     text-align: left;
