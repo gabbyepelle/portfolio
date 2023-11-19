@@ -146,8 +146,8 @@ section{
 }
 
 .avatar{
-    width: 200px;
-    height: 200px;
+    height: 300px;
+    width: auto;
     margin-bottom: 35px;
 }
 
@@ -206,7 +206,7 @@ h3{
  
 
 .hi{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-family: var(--heading-font);
 }
 
@@ -283,6 +283,8 @@ footer{
         justify-content: space-around;
     }
 
+
+
     
 
 } 
@@ -318,9 +320,17 @@ footer{
     } 
 
     .thumbnail{
-        width: 500px;
-        height: auto;
+       width: 500px;
+       height: 300px;
+       object-fit:cover;
     } 
+
+    .thumbnail-lg{
+        width: 500px;
+        height: 300px;
+        object-fit: scale-down;
+     } 
+ 
 
     .text{
         align-self: center;
