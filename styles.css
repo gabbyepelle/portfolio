@@ -180,6 +180,7 @@ h3{
 } 
 
 
+
 .projects-container{
     display: flex;
     flex-direction: column;
@@ -283,6 +284,8 @@ footer{
         justify-content: space-around;
     }
 
+   
+    
 
 
     
@@ -341,6 +344,19 @@ footer{
     .img-container{
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .about-content{
+        display: flex;
+        margin-top: 2rem;
+        /* border: 1px solid white; */
+       margin: 0 auto;
+        width: 50%;
+        gap: 10%;
+    }
+
+    .text-content{
+        text-align: left;
     }
     
 }
